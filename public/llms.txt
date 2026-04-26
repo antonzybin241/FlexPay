@@ -1,7 +1,7 @@
-FluxPay
+FlexPay
 https://fluxpay.xyz/
 
-FluxPay lets users buy mobile airtime instantly using USDC on Base.
+FlexPay lets users buy mobile airtime instantly using USDC on Base.
 
 ## Links
 

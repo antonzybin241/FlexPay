@@ -755,13 +755,13 @@ export default function Home() {
         <div className={styles.navbarInner}>
           <Link href="/home" className={styles.brand}>
             <Image
-              src="/fluxpay_logo.png"
-              alt="FluxPay"
+              src="/flexpay_logo.png"
+              alt="FlexPay"
               width={80}
               height={80}
               priority
             />
-            <span>FluxPay</span>
+            <span>FlexPay</span>
           </Link>
 
           <nav className={styles.navLinks}>
@@ -1155,7 +1155,7 @@ export default function Home() {
       </main>
     </div>
     <a
-    href="https://wa.me/254743913802?text=Hi%2C%20I%20am%20making%20an%20inquiry%20concerning%20FluxPay"
+    href="https://wa.me/254743913802?text=Hi%2C%20I%20am%20making%20an%20inquiry%20concerning%20FlexPay"
       target="_blank"
       rel="noopener noreferrer"
       className={styles.whatsappFab}

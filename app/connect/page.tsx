@@ -62,13 +62,13 @@ function ConnectPageInner() {
         <div className={landing.headerContent}>
           <Link href="/" className={landing.logo}>
             <Image
-              src="/fluxpay_logo.png"
-              alt="FluxPay Logo"
+              src="/flexpay_logo.png"
+              alt="FlexPay Logo"
               width={120}
               height={120}
               priority
             />
-            <span>FluxPay</span>
+            <span>FlexPay</span>
           </Link>
 
           <nav

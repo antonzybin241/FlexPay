@@ -29,13 +29,13 @@ export function LandingMarketing() {
         <div className={styles.headerContent}>
           <Link href="/" className={styles.logo}>
             <Image
-              src="/fluxpay_logo.png"
-              alt="FluxPay Logo"
+              src="/flexpay_logo.png"
+              alt="FlexPay Logo"
               width={120}
               height={120}
               priority
             />
-            <span>FluxPay</span>
+            <span>FlexPay</span>
           </Link>
 
           <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
@@ -147,7 +147,7 @@ export function LandingMarketing() {
               </div>
               <Image
                 src="/hero-landing.png"
-                alt="FluxPay Landing Hero"
+                alt="FlexPay Landing Hero"
                 width={1000}
                 height={850}
                 className={styles.mainHero}
@@ -208,10 +208,10 @@ export function LandingMarketing() {
         </div>
       </section>
 
-      {/* Why Use FluxPay Section */}
+      {/* Why Use FlexPay Section */}
       <section className={styles.features}>
         <div className={styles.sectionContent}>
-          <h2 className={styles.sectionTitle}>Why Use FluxPay?</h2>
+          <h2 className={styles.sectionTitle}>Why Use FlexPay?</h2>
 
           <div className={styles.whyGrid}>
             <div className={styles.decorCircle} aria-hidden="true" />
@@ -338,9 +338,9 @@ export function LandingMarketing() {
             <div className={styles.footerBrand}>
               <div className={styles.footerBrandHeader}>
                 <div className={styles.footerLogo}>
-                  <Image src="/fluxpay_logo.png" alt="FluxPay Logo" width={120} height={120} />
+                  <Image src="/flexpay_logo.png" alt="FlexPay Logo" width={120} height={120} />
                 </div>
-                <div className={styles.footerBrandName}>FluxPay</div>
+                <div className={styles.footerBrandName}>FlexPay</div>
               </div>
               <div className={styles.footerTagline}>Turn crypto into mobile airtime instantly</div>
               <div className={styles.footerSocial}>
@@ -380,7 +380,7 @@ export function LandingMarketing() {
           <hr className={styles.footerDivider} />
 
           <div className={styles.footerBottom}>
-            <p>&copy; 2026 FluxPay. All rights reserved.</p>
+            <p>&copy; 2026 FlexPay. All rights reserved.</p>
             <div className={styles.footerLegal}>
               <a href="#" onClick={handleComingSoon}>Terms &amp; Conditions</a>
               <a href="#" onClick={handleComingSoon}>Privacy Policy</a>

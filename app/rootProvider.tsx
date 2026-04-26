@@ -7,7 +7,7 @@ import { OnchainKitProvider } from "@coinbase/onchainkit";
 import "@coinbase/onchainkit/styles.css";
 import { minikitConfig } from "@/minikit.config";
 
-const fluxpayLogoUrl = `${minikitConfig.miniapp.homeUrl.replace(/\/$/, "")}/fluxpay_logo.png`;
+const flexpayLogoUrl = `${minikitConfig.miniapp.homeUrl.replace(/\/$/, "")}/flexpay_logo.png`;
 
 const wagmiConfig = createConfig({
   chains: [base, baseSepolia],
@@ -15,14 +15,14 @@ const wagmiConfig = createConfig({
     // Prefer browser wallets (avoids keys.coinbase.com Base Account flow).
     coinbaseWallet({
       appName: minikitConfig.miniapp.name,
-      appLogoUrl: fluxpayLogoUrl,
+      appLogoUrl: flexpayLogoUrl,
       preference: "all",
     }),
     metaMask({
       dappMetadata: {
         name: minikitConfig.miniapp.name,
         url: minikitConfig.miniapp.homeUrl,
-        iconUrl: fluxpayLogoUrl,
+        iconUrl: flexpayLogoUrl,
       },
     }),
     // Common injected wallets (only shown in UI if detected).
@@ -62,7 +62,7 @@ export function RootProvider({ children }: { children: ReactNode }) {
           appearance: {
             mode: "light",
             name: minikitConfig.miniapp.name,
-            logo: fluxpayLogoUrl,
+            logo: flexpayLogoUrl,
             theme: "base",
           },
           wallet: {

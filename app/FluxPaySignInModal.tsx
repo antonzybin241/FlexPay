@@ -15,7 +15,6 @@ export function FluxPaySignInModal() {
   const { config } = useOnchainKit();
   const termsUrl = config?.wallet?.termsUrl;
   const privacyUrl = config?.wallet?.privacyUrl;
-  const appIcon = config?.appearance?.logo ?? '';
   return (
     <div
       className={styles.root}
@@ -29,7 +28,7 @@ export function FluxPaySignInModal() {
       >
         <div className={styles.logoWrap} style={{ margin: '0 auto 0.75rem' }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/fluxpay_logo.png" alt="" className={styles.logoImg} />
+          <img src="/flexpay_logo.png" alt="" className={styles.logoImg} />
         </div>
         <h2 id="fluxpay-signin-heading" className={styles.introTitle}>
           Sign in with your wallet
