@@ -29,7 +29,7 @@ export function FluxPaySignInModal() {
       >
         <div className={styles.logoWrap} style={{ margin: '0 auto 0.75rem' }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={appIcon} alt="" className={styles.logoImg} />
+          <img src="/fluxpay_logo.png" alt="" className={styles.logoImg} />
         </div>
         <h2 id="fluxpay-signin-heading" className={styles.introTitle}>
           Sign in with your wallet
