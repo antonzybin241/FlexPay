@@ -2,8 +2,8 @@ import path from "path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Monorepo root is FluxPay/; avoids Next output tracing picking the wrong lockfile.
-  outputFileTracingRoot: path.join(__dirname, ".."),
+  // Keep tracing rooted at this project (Vercel workdir).
+  outputFileTracingRoot: path.join(__dirname),
   webpack: (config, { dev }) => {
     config.externals.push("pino-pretty", "lokijs", "encoding");
 
